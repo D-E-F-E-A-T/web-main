@@ -1,59 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>OrchidWare.net</title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	</head>
+	
 	<body>
-		<h1>Welcome to OrchidWare.net</h1>
+		<!-- Header -->
+		<header class="primary-header container group">
+			<h1 class="logo">
+				<a href="index.html">OrchidWare <br> .net</a>
+			</h1>
+			
+			<h3 class="tagline">Keep on keepin' on!</h3>
 		
-		<h3>Projects</h3>
-		For Students and Teachers:
-		Classroom challenge is fun way for students and teachers to<br />
-		make class presentations in an engaging, fun, and exciting manner. <br />
+			<nav class="nav primary-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li><!--
+					--><li><a href="projects.html">Projects</a></li><!--
+					--><li><a href="about.html">About</a></li><!--
+					--><li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>		
+		</header>
 		
-		Start Classroom Challenge. <br />
+		<section class="hero container">
+			<h2>Where Programming Is Always Fun and Exciting</h2>
+			<p>This is a portfolio of my personal projects.</p>		
 		
-		For Software Developers: <br />
-		Classroom challenge is a distributed software system which uses REST-ful<br />
-		web services for client-server communication. <br \>
-		The system is composed of a set of backend services and several client user interface implementations<br />
-		Each User Interface implements the same set of core features allows one to compare and contrast implementations<br />
-		amongst the various user-interface technologies.<br />
-		The UI technologies will include the following: Android, iOS, Javascript, Windows Store App API, and MFC.
+			<a class="btn btn-alt" href="https://github.com/rmbernardi">Visit My GitHub</a>
+		</section>
 		
-		It uses the following technologies:<br \>
-		<table border='1'>
-			<tr>
-				<th>Technology</th>
-				<th>Purpose</th>
-			</tr>
-			<tr>
-				<td>Java 1.8</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Spring Framework</td>
-				<td>Creating REST web services</td>
-			</tr>	
-			<tr>
-				<td>JPA</td>
-				<td>Persisting data to the database using Plain-Old-Java-Objects(POJO)</td>
-			</tr>
-			<tr>
-				<td>javascript</td>
-				<td>For creating web user-interfaces. Angular.js</td>
-			</tr>
-			<tr>
-				<td>Jackson</td>
-				<td>Converting POJO objects to JSON</td>
-			</tr>
-			<tr>
-				<td>Spring Tool Suite</td>
-				<td></td>
-			</tr>
-		</table>
-
-		References:
-		<ul>
-			<li>http://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#jpa.query-methods.query-creation</li>
-		</ul>
-		The source code is all open-source and available at <a href='https://github.com/rmbernardi'>github</a>
+		<!-- Teasers -->
+			
+		<section class="row">
+			
+			<div class="grid">
+				<section class="teaser col-1-3">
+					<a href="simpleGameEngine.html">
+						<h5>Simple Game Engine</h5>
+						<h3>2D, Overhead-View Game Engine</h3>
+					</a>				
+					<p>A basic, 2D game engine in C++ and DirectX.</p>
+				</section>
+				
+				<section class="teaser col-1-3">
+					<a href="designPatterns.html">
+						<h5>GoF Pattern Examples</h5>
+						<h3>Twenty-Three Little Nuggets of Fun</h3>
+					</a>
+					<p>A collection of simple examples of each of the Gang-of-Four design patterns.</p>
+				</section>
+				
+				<section class="teaser col-1-3">
+					<a href="venue.html">
+						<h5>Documentation</h5>
+						<h3>It's Almost As Fun As Coding</h3>
+					</a>
+					<p>Design documentation including UML diagrams and user-interface mock-ups.  </p>
+				</section>
+			</div>
+		</section>
+		
+		<footer class="primary-footer container group">
+			<small>Site last updated: February 18, 2015</small>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</footer>
+		
 	</body>
 </html>
