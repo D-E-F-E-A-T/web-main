@@ -4,12 +4,16 @@
   <head>
     <meta charset="utf-8">
 		<title>Simple Game Engine</title>
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <link rel="stylesheet" href="assets/stylesheets/main.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400" />
+	<link rel="stylesheet" href="lightbox/css/lightbox.css" />
   </head>
 
   <body>
-
+	
+	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
+	<script src="lightbox/js/lightbox.min.js"></script>
+	
     <!-- Header -->
 
     <header class="primary-header container group">
@@ -18,7 +22,7 @@
         <a href="index.html">OrchidWare <br>.net</a>
       </h1>
 
-      <h3 class="tagline">"Keep on keepin' on"</h3>
+      <h3 class="tagline">"Keep on keepin' on!"</h3>
 
       <nav class="nav primary-nav">
 				<ul>
@@ -46,15 +50,18 @@
 
 	<section class="row">
       <div class="grid">
-		<img src="02192015.jpg" alt="Screenshot as of February 19, 2015"><br />
+		<a href="02192015.jpg" data-lightbox="02192015" data-title="Screenshot from February 2015">		
+			<img src="02192015.jpg" width="25%" height="25%" alt="Screenshot as of February 19, 2015"><br />
 		Screenshot as of February 2015
+		</a>
       </div>
     </section>	  
     <!-- Footer -->
 
     <footer class="primary-footer container group">
 
-			<small>Site last updated: February 19, 2015</small>
+			<small>Site last updated: February 19, 2015</small><br />
+			<small>This site was implemented with HTML5, CSS, and Javascript.</small>
 
       <nav class="nav">
 				<ul>
