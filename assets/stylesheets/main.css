@@ -149,6 +149,7 @@ h1, h2, h3, h4 {
 }
 h1, h3, h4, h5, p {
 	margin-bottom: 22px;
+	font-weight: 500;
 }
 h1 {
 	font-size: 36px;
@@ -248,7 +249,7 @@ p a {
 	border-top: 4px solid #80dd80;
 	float: left;
 	font-size: 48px;
-	font-weight: 100;
+	font-weight: 350;
 	letter-spacing: .5px;
 	line-height: 44px;
 	padding: 40px 0 22px 0;
